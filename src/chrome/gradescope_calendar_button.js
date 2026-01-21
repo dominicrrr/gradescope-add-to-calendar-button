@@ -93,7 +93,7 @@ function createCalendarHTML(startDate, endDate, courseName, assignmentName, assi
 
     let calHTML = `<div class="atcb atcb-custom-style" style="display:none;">
     {
-        "name":"${courseName} ${assignmentName}",
+        "name":"${assignmentName} | ${courseName}",
         "description":"",
         "label":"${assignmentName}",
         "size":"3",
